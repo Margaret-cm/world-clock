@@ -21,6 +21,16 @@ select {
   background: #eceef0;
 }
 
+a {
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -32,7 +42,6 @@ select {
 .city {
   display: flex;
   justify-content: space-between;
-
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
 }
@@ -53,10 +62,4 @@ select {
 .time small {
   font-size: 20px;
   vertical-align: middle;
-}
-
-footer {
-  text-align: center;
-  font-size: 14px;
-  margin-top: 30px;
 }
